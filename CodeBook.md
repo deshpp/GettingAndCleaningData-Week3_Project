@@ -3,6 +3,12 @@ This code book describes the variables, the data, and any transformations or wor
 
 # Summary
 
+
+This is the summary of my book.
+
+* [section 1](/README.md)
+* [section 2](/run_analysis.R)
+
 This is the summary of my book.
 
 * [section 1] The Data Sources & Data 
