@@ -1,4 +1,13 @@
 
+T
+# Summary
+
+This is the summary of my book.
+
+* [section 1](section1/README.md)
+  * [section 2](section2/README.md)
+    * [example 1](section2/example1.md)
+    * 
 This is a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data.
 
 The data source
@@ -52,7 +61,7 @@ Appropriately labels the data set with descriptive activity names.
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 How run_analysis.R implements the above steps:
 
-Require reshapre2 and data.table librareis.
+Require reshape2 and data.table librareis.
 Load both test and train data
 Load the features and activity labels.
 Extract the mean and standard deviation column names and data.
