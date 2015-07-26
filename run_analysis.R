@@ -5,6 +5,10 @@
 ## 4. Appropriately labels the data set with descriptive activity names.
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+#Note: Download and unzip the data into a local drive and set working directory in R. see the example below:
+#setwd("C:\\R\\GetCleanData\\getdata-projectfiles-UCI HAR Dataset")
+
+
 ##if required packages are not present then install them
 if (!require("data.table")) {
   install.packages("data.table")
@@ -17,8 +21,6 @@ if (!require("reshape2")) {
 require("data.table")
 require("reshape2")
 
-#set working directory where the data is present - note the data is already downloaded and unzipped to avoid extra coding
-setwd("C:\\R\\GetCleanData\\getdata-projectfiles-UCI HAR Dataset")
 
 # Load data: activity labels
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")[,2]
