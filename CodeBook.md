@@ -1,5 +1,5 @@
-CodeBook
-This is a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
+
+This is a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data.
 
 The data source
 
