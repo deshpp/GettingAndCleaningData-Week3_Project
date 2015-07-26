@@ -1,16 +1,11 @@
+# Code Book
+This code book describes the variables, the data, and any transformations or work that I performed to clean up the data.
 
-T
 # Summary
 
 This is the summary of my book.
 
-* [section 1](section1/README.md)
-  * [section 2](section2/README.md)
-    * [example 1](section2/example1.md)
-    * 
-This is a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data.
-
-The data source
+* [section 1] The Data Sources & Data 
 
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -50,7 +45,7 @@ The following files are available for the train and test data. Their description
 
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-Transformation details
+* [section 2 ]Transformation details in the run_analysis.R script
 
 There are 5 parts:
 
